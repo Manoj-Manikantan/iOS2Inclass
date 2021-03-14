@@ -64,5 +64,11 @@
 	</array>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
+	<key>NSCameraUsageDescription</key>
+	<string>Please provide Camera access</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>Please provide Media access</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Please provide Microphone access</string>
 </dict>
 </plist>

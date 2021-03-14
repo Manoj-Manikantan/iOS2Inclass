@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="50" id="Orf-CK-ntK"/>
                                     <constraint firstAttribute="width" constant="50" id="ppa-sB-hzC"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemGreenColor"/>
                                 <state key="normal" backgroundImage="camera.fill" catalog="system"/>
                                 <connections>
                                     <action selector="onCameraClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vcQ-5N-Jeh"/>
@@ -54,7 +54,7 @@
                                     <constraint firstAttribute="width" constant="50" id="kOj-dX-rog"/>
                                     <constraint firstAttribute="height" constant="50" id="xnW-BK-Upw"/>
                                 </constraints>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" red="0.21960784310000001" green="0.63529411759999999" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <state key="normal" backgroundImage="photo" catalog="system"/>
                                 <connections>
                                     <action selector="onGalleryClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Qt-Hc-5jY"/>
@@ -98,6 +98,9 @@
         <image name="photo" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
